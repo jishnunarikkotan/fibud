@@ -2,7 +2,7 @@
 
 A robust NestJS-based backend service for matching experts with clients, featuring specialized matching logic and filtering capabilities.
 
-## 🚀 Features
+##  Features
 
 - **Expert Management**
   - Create and manage expert profiles
@@ -18,7 +18,7 @@ A robust NestJS-based backend service for matching experts with clients, featuri
   - Filter matches by specialization and expert rating
   - Track match status and progress
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 - **Framework**: NestJS
 - **ORM**: Prisma
@@ -26,13 +26,13 @@ A robust NestJS-based backend service for matching experts with clients, featuri
 - **Language**: TypeScript
 - **Testing**: Jest
 
-## 📋 Prerequisites
+##  Prerequisites
 
 - Node.js (v14 or later)
 - PostgreSQL
 - npm or yarn
 
-## 🔧 Installation
+##  Installation
 
 1. Clone the repository:
 ```bash
@@ -104,7 +104,7 @@ npm run test:e2e
 npm run test:cov
 ```
 
-## 📝 Database Schema
+##  Database Schema
 
 ### Expert
 - `id`: UUID
@@ -134,14 +134,14 @@ npm run test:cov
 - `createdAt`: DateTime
 - `updatedAt`: DateTime
 
-## 🔒 Security Features
+##  Security Features
 
 - Input validation using class-validator
 - Type safety with TypeScript
 - Environment variables for sensitive data
 - Database connection pooling
 
-## 🚀 Future Improvements
+##  Future Improvements
 
 - [ ] Authentication and authorization
 - [ ] Rate limiting
